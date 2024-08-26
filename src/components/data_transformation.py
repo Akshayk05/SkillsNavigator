@@ -30,7 +30,7 @@ class DataTransformation:
         '''
         try:
             numerical_columns = ['Problem Solving', 'Communication', 'Teamwork', 'Creativity', 'Programming', 'System Design', 'Project Management', 'Cybersecurity', 'Machine Learning', 'Mobile Development', 'Web Development', 'Database Management', 'Networking', 'Cloud Computing', 'Data Analysis', 'Testing', 'UI/UX Design', 'Technical Writing']
-            categorical_columns = ['job profile']
+            categorical_columns = ['Job Role']
 
             num_pipeline= Pipeline(
                 steps=[
@@ -80,7 +80,7 @@ class DataTransformation:
 
             preprocessing_obj=self.get_data_transformer_object()
 
-            target_column_name="job profile"
+            target_column_name="Job Role"
             numerical_columns = ['Problem Solving', 'Communication', 'Teamwork', 'Creativity', 'Programming', 'System Design', 'Project Management', 'Cybersecurity', 'Machine Learning', 'Mobile Development', 'Web Development', 'Database Management', 'Networking', 'Cloud Computing', 'Data Analysis', 'Testing', 'UI/UX Design', 'Technical Writing']
 
             input_feature_train_df=train_df.drop(columns=[target_column_name],axis=1)
