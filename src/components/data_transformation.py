@@ -78,7 +78,7 @@ class DataTransformation:
 
             logging.info("Obtaining preprocessing object")
 
-            # preprocessing_obj=self.get_data_transformer_object()
+            preprocessing_obj=self.get_data_transformer_object()
 
             target_column_name="job profile"
             numerical_columns = ['Problem Solving', 'Communication', 'Teamwork', 'Creativity', 'Programming', 'System Design', 'Project Management', 'Cybersecurity', 'Machine Learning', 'Mobile Development', 'Web Development', 'Database Management', 'Networking', 'Cloud Computing', 'Data Analysis', 'Testing', 'UI/UX Design', 'Technical Writing']
