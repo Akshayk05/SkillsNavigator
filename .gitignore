@@ -128,7 +128,7 @@ env/
 newenv/
 ENV/
 env.bak/
-venv.bak/
+newenv.bak/
 
 # Spyder project settings
 .spyderproject
